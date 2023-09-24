@@ -1,0 +1,84 @@
+/* Styles for the StockMarket component */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("path_to_your_background_image.jpg");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.StockMarket {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.StockMarket h1 {
+  font-size: 32px;
+  color: #3498db; /* Blue color */
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  width: 70%;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #3498db; /* Blue border */
+  border-radius: 4px;
+}
+
+.btn-search {
+  background-color: #3498db; /* Blue button background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-search:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.StockData {
+  padding: 20px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Semi-transparent white background */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  font-size: 16px;
+  margin: 10px 0;
+  background-color: #ecf0f1; /* Light gray background */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item strong {
+  color: #3498db; /* Blue text for labels */
+}
